@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Phishing Page</title>
+<style>
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding: 50px; }
+h1 { color: #333; }
+input[type=text], input[type=password] { width: 300px; padding: 10px; margin: 10px 0; border: 1px solid #ccc; }
+input[type=submit] { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+</style>
+</head>
+<body>
+<h1>Login Page</h1>
+<form action="submit_form.php" method="POST">
+<input type="text" name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="Password" required>
+<input type="submit" value="Login">
+</form>
+</body>
+</html>
